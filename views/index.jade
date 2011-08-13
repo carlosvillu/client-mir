@@ -3,11 +3,16 @@ div.container
     h1.remove-bottom(style="margin-top: 40px") Examenes MIR
     h5 Version 0.0.1
     hr
-  div.one-third.column(style="border: 0px solid red; height: 20px;")
-  div.one-third.column(style="border: 0px solid red; height: 20px;")
-  div.one-third.column(style="border: 0px solid red; height: 20px;")
-  div.five.columns.offset-by-one
-
+  div.two-third.column
+    form#login(action="#")
+      input#user(type="text", name="user", placeholder="User")
+      input#password(type="text", name="password", placeholder="Password")
+      button(type="submit") Submit Form
+  div.one-third.columns
+    blockquote
+      p This is a blockquote style example. It stands out, but is awesome
+      cite Dave Gamache, Skeleton Creator
+      
 // JS
 // =================================================
 
