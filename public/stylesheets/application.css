@@ -7,5 +7,5 @@
 /* Forms */
 #login { padding-top: 33px; }
 #login input{ display: inline; margin-right: 5px;}
-#facebook { position: relative; top: 37px; border-left: 1px solid #CCC; padding-left: 100px; margin-left: 50px; }
+#facebook { position: relative; top: 37px; margin-bottom: 30px; }
 #facebook img { cursor: pointer; }
