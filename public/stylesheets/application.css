@@ -8,3 +8,4 @@
 #login { padding-top: 33px; }
 #login input{ display: inline; margin-right: 5px;}
 #facebook { position: relative; top: 37px; border-left: 1px solid #CCC; padding-left: 100px; margin-left: 50px; }
+#facebook img { cursor: pointer; }
