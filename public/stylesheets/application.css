@@ -2,5 +2,8 @@
  * Application rules
  */
 
+/* Logi-Cite */
+#cite{ margin-top:30px; }
 /* Forms */
+#login { padding-top: 33px; }
 #login input{ display: inline; margin-right: 5px;}
