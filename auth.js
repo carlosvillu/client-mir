@@ -3,7 +3,6 @@ exports.auth = function auth(req, res, next){
     next();
   } else {
     if(req.url.match(/signin|javascripts|stylesheets|images/)){
-      console.log('No require auth for: ' + req.url);
       next();
     } else {
       console.log('Require auth for: ' + req.url);
