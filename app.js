@@ -40,7 +40,6 @@ app.get('/signin', function(req, res){
     title: 'Signin',
     redirect: req.query.redirect || '/'
   });
-  console.log(req.query);
 });
 
 
