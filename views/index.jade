@@ -10,7 +10,7 @@ div.container
       button(type="submit") Login
   div.one-third.columns.offset-by-two
     div#facebook
-      a#facebook_connect
+      a#facebook_connect(href="signin?method=facebook&redirectUrl=#{fbCallBack}")
         img(src="images/facebook_connect_icon.jpg")
   div#cite.sixteen.columns
     blockquote#blockquote(style="display: none")
