@@ -25,4 +25,11 @@ head
   link(rel="apple-touch-icon", sizes="114x114", href="images/apple-touch-icon-114x114.png")
 
   title= title
-body!= body
+body
+  div.container
+    div.sixteen.columns
+      h1.remove-bottom(style="margin-top: 40px") Exámenes MIR
+      h5 Versión 0.0.1
+      hr
+    div#wrapper.sixteen.columns
+      != body

@@ -1,0 +1,23 @@
+div.two-third.column
+  form#login(action="#", method="post")
+    input#user(type="text", name="user", placeholder="User")
+    input#password(type="password", name="password", placeholder="Password")
+    input#redirect(type="hidden", name="redirect", value="#{redirect}")
+    button(type="submit") Login
+div.one-third.columns.offset-by-two
+  div#facebook
+    a#facebook_connect
+      img(src="images/facebook_connect_icon.jpg")
+div#cite.sixteen.columns
+  blockquote#blockquote(style="display: none")
+    p#quote
+    cite#author
+      
+// JS
+// =================================================
+
+script(src="//ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js")
+\<script>(window.jQuery || document.write("<script src='javascripts/jquery-1.5.1.min.js'>\\x3C/script>")</script>
+script(src="javascripts/app.js")
+script(src="javascripts/client.js")
+
