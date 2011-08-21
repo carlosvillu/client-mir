@@ -30,13 +30,15 @@ app.configure('production', function(){
 
 // Routes
 app.get('/', function(req, res){
-  res.render('index', {
+  res.render('home', {
+    body_id: 'home',
     title: 'Exámenes MIR'
   });
 });
 
 app.get('/signin', function(req, res){
   res.render('signin', {
+    body_id: 'signin',
     title: 'Signin',
     redirect: req.query.redirect || '/'
   });
