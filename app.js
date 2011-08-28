@@ -3,12 +3,6 @@
  */
 var express = require('express');
 var auth = require('./auth');
-var fs = require('fs');
-
-
-var privateKey = fs.readFileSync('./key/privatekey.pem').toString();
-var certificate = fs.readFileSync('./key/certificate.pem').toString();
-
 
 var app = module.exports = express.createServer();
 
