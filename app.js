@@ -10,7 +10,7 @@ var privateKey = fs.readFileSync('./key/privatekey.pem').toString();
 var certificate = fs.readFileSync('./key/certificate.pem').toString();
 
 
-var app = module.exports = express.createServer({key: privateKey, cert: certificate});
+var app = module.exports = express.createServer();
 
 // Configuration
 
